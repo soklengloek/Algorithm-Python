@@ -23,10 +23,7 @@ class bank_account :
         print (f"Current Balance : ${self.__balance : 2f}")
 if __name__ == "__main__":account = bank_account()
 while True :
-    print ("1. Deposit")
-    print ("2. WIthdraw")
-    print ("3. Check Balance")
-    print ("4. Exit")
+    print ("\n1. Deposit", "\n2. Withdraw","\n3. Check Balance", "\n4. Exit")
     ch = int (input ("Entrt your choice : "))
     if ch == 1:
         account.deposit()
